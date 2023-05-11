@@ -1,0 +1,39 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,600;1,900&display=swap');
+*{
+    margin: 0;
+    display: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 2rem 6rem;
+    height: 100vh;
+    background: rgb(17,17,62);
+    background: linear-gradient(90deg, rgba(17,17,62,1) 0%, rgba(18,125,147,1) 50%, rgba(17,17,62,1) 97%);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.display-meme img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 1px #bfb3b3;
+}
+.gen-meme-btn {
+    padding: 0.5rem;
+    height: 54px;
+    object-fit: cover;
+    background-color: white;
+    color: rgb(209, 56, 56);
+    font-size: larger;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.gen-meme-btn:hover {
+    padding: 0.5rem 3rem;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    letter-spacing: 3px;
+}
